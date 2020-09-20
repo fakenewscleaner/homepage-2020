@@ -52,7 +52,7 @@
 body {
   color: #777777;
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.5em;
   position: relative;
@@ -1148,6 +1148,11 @@ h1, h2, h3, h4, h5, h6 {
   height: 200px;
 }
 
+.half-side-image {
+  max-width: 100%;
+  max-height: 300px;
+}
+
 .list-style {
   width: 14px;
   height: 14px;
@@ -2002,7 +2007,7 @@ nav a:hover {
 
 .banner-content p {
   margin-bottom: 0px;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 @media (max-width: 991px) {
@@ -2078,6 +2083,10 @@ nav a:hover {
 
 .exprience-content p {
   margin-bottom: 30px;
+}
+
+.carousel-area.gap-1 .overlay-bg  {
+  background: rgba(0, 0, 0, 0.65);
 }
 
 .carousel-area {
@@ -2189,6 +2198,10 @@ nav a:hover {
   padding: 90px 0 120px 0;
 }
 
+.service-area .single-service .desc h4 {
+  font-size: 24px;
+}
+
 .single-service {
   margin-top: 30px;
   text-align: center;
@@ -2201,7 +2214,7 @@ nav a:hover {
   font-size: 110px;
   color: #f5204b;
   text-align: center;
-  line-height: 130px;
+  line-height: 200px;
   left: 50%;
   transform: translateX(-50%);
   word-break: keep-all;
@@ -2235,20 +2248,23 @@ nav a:hover {
   display: -moz-flex;
   display: -ms-flexbox;
   display: flex;
-  background: #f9faff;
   border-radius: 3px;
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  transform: translateX(-50%);
 }
 
 .service-area-2 .single-service .icon span {
   margin: auto;
-  font-size: 36px;
+  font-size: 64px;
   color: #f5204b;
   font-weight: 600;
 }
 
 .service-area-2 .single-service .desc {
-  margin-left: 20px;
-  text-align: left;
+  width: 100%;
+  text-align: center;
 }
 
 .service-area-2 .single-service .desc h4 {
@@ -2597,4 +2613,8 @@ footer .footer-nav li a:hover {
 
 .switch-wrap p {
   margin: 0;
+}
+
+.text-align-center {
+  text-align: center;
 }
