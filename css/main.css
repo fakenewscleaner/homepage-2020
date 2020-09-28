@@ -1971,7 +1971,7 @@ nav a:hover {
 }
 
 .banner-area .overlay-bg {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/talk.png) no-repeat center center/cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/talk4.jpg) no-repeat center center/cover;
 }
 
 @media (max-width: 767px) {
