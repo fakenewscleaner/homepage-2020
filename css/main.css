@@ -1899,7 +1899,6 @@ nav.hide {
 }
 
 nav a {
-  font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
   color: #fff;
@@ -1971,12 +1970,8 @@ nav a:hover {
   color: #fff;
 }
 
-.banner-area {
-  background: url(../img/banner-bg.png) no-repeat center center/cover;
-}
-
 .banner-area .overlay-bg {
-  background: rgba(0, 0, 0, 0.75);
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../img/talk.png) no-repeat center center/cover;
 }
 
 @media (max-width: 767px) {
@@ -2006,7 +2001,6 @@ nav a:hover {
 }
 
 .banner-content p {
-  margin-bottom: 0px;
   font-size: 24px;
 }
 
@@ -2086,11 +2080,11 @@ nav a:hover {
 }
 
 .carousel-area.gap-1 .overlay-bg  {
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.85);
 }
 
 .carousel-area {
-  background: url(../img/c-bg.jpg) no-repeat center center/cover;
+  background: url(../img/information.jpg) no-repeat center center/cover;
 }
 
 .carousel-area .overlay-bg {
@@ -2277,11 +2271,18 @@ nav a:hover {
 }
 
 .video-area {
+  background: url(../img/information.jpg) no-repeat 0 100%/cover;
+}
+.section-gap-3 {
   background: url(../img/c-bg.jpg) no-repeat center center/cover;
 }
 
+.section-gap-3 .overlay-bg {
+  background: rgba(0, 0, 0, 0.25);
+}
+
 .video-area .overlay-bg {
-  background: rgba(245, 32, 75, 0.75);
+  background: linear-gradient(111deg , rgba(245, 32, 75, 0.75) 34%, rgba(168,168,168,0.75));
 }
 
 .video-area .video-wrap {
@@ -2499,7 +2500,8 @@ nav a:hover {
 }
 
 footer {
-  background: #222222;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/footer2.jpg) no-repeat center center;
+  background-size: cover;
 }
 
 footer .footer-nav {
@@ -2617,4 +2619,11 @@ footer .footer-nav li a:hover {
 
 .text-align-center {
   text-align: center;
+}
+
+.logo {
+  max-width: 180px;
+}
+.logo img {
+  max-width: 100%;
 }
