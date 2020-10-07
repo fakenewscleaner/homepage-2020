@@ -51,7 +51,7 @@
 
 body {
   color: #777777;
-  font-family: "Poppins", sans-serif;
+  font-family: "PingFang TC","Heiti TC","Noto Sans TC","Noto Sans CJK TC",NotoSansCJKtc-Regular,source-han-sans-traditional,"Microsoft JhengHei Fixed","Microsoft JhengHei","微軟正黑體",sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5em;
@@ -119,21 +119,12 @@ a, a:focus, a:hover {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "PingFang TC","Heiti TC","Noto Sans TC","Noto Sans CJK TC",NotoSansCJKtc-Regular,source-han-sans-traditional,"Microsoft JhengHei Fixed","Microsoft JhengHei","微軟正黑體",sans-serif;
   color: #222222;
   line-height: 1.2em !important;
   margin-bottom: 0;
   margin-top: 0;
   font-weight: 600;
-}
-
-.h1, .h2, .h3,
-.h4, .h5, .h6 {
-  margin-bottom: 0;
-  margin-top: 0;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #222222;
 }
 
 h1, .h1 {
