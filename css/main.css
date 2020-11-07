@@ -2639,3 +2639,8 @@ footer .footer-nav li a:hover {
 .logo img {
   max-width: 100%;
 }
+
+.property-label {
+  padding-right: 5px;
+  font-weight: bold
+}
